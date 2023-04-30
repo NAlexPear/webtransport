@@ -6,7 +6,7 @@ on:
 
 jobs:
   check:
-    uses: nalexpear/tracing-stackdriver/.github/workflows/check.yml@master
+    uses: nalexpear/tracing-stackdriver/.github/workflows/check.yml@main
     secrets: inherit
   publish:
     needs: check
