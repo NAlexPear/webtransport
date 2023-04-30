@@ -9,6 +9,16 @@ repository = "https://github.com/NAlexPear/webtransport"
 description = "WebTransport implementation for Rust built on h3"
 keywords = ["webtransport", "http3", "quic", "udp", "protocol", "network"]
 
+[badges.maintenance]
+status = "actively-developed"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[lib]
+doctest = false
+
 [dependencies]
 bytes = "1.4.0"
 h3 = "0.0.2"
