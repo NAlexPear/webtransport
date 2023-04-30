@@ -1,8 +1,9 @@
 name: Pre-release Checks
 on:
   push:
-    branches-ignore:
-      - main
+    # TODO: re-enable pull-request-only flow after v0.1.0
+    # branches-ignore:
+    #   - main
   pull_request:
     branches:
       - main
