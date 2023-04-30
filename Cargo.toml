@@ -1,0 +1,15 @@
+[package]
+name = "webtransport"
+version = "0.1.0"
+authors = ["Alex Pearson <alex@alexpear.com>"]
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/NAlexPear/webtransport"
+description = "WebTransport implementation for Rust built on h3"
+keywords = ["webtransport", "http3", "quic", "udp", "protocol", "network"]
+
+[dependencies]
+bytes = "1.4.0"
+h3 = "0.0.2"
+tracing = "0.1.37"
